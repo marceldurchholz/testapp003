@@ -58,22 +58,21 @@ var app = {
         quality: 50,
         destinationType: Camera.DestinationType.FILE_URI
       });
-    }
-	
-    // alert dialog dismissed
-    alertDismissed: function() {
-        // do something
-    }
-
-    // Show a custom alert
-    //
-    showAlert: function() {
-        navigator.notification.alert(
-            'You are the winner!',  // message
-            alertDismissed,         // callback
-            'Game Over',            // title
-            'Done'                  // buttonName
-        );
-    }
-	
+    }	
 };
+
+// alert dialog dismissed
+function alertDismissed() {
+	// do something
+}
+
+// Show a custom alert
+//
+function showAlert() {
+	navigator.notification.alert(
+		'You are the winner!',  // message
+		alertDismissed,         // callback
+		'Game Over',            // title
+		'Done'                  // buttonName
+	);
+}
