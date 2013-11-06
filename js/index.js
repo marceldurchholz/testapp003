@@ -73,6 +73,10 @@ function showAlert() {
 		'You are the winner!',  // message
 		alertDismissed,         // callback
 		'Game Over',            // title
-		'Done'                  // buttonName
+		['Restart','Exit']		// buttonName
 	);
+}
+
+function vibrate() {
+	navigator.notification.vibrate(2000);
 }
