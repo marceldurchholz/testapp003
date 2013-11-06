@@ -60,7 +60,6 @@ var app = {
       });
     }
 	
-	/*
     // alert dialog dismissed
     alertDismissed: function() {
         // do something
@@ -68,7 +67,7 @@ var app = {
 
     // Show a custom alert
     //
-    showAlert:function () {
+    showAlert: function() {
         navigator.notification.alert(
             'You are the winner!',  // message
             alertDismissed,         // callback
@@ -76,6 +75,5 @@ var app = {
             'Done'                  // buttonName
         );
     }
-	*/
 	
 };
