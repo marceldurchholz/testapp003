@@ -98,6 +98,8 @@
     <gap:plugin name="org.apache.cordova.vibration" />
 	<!-- 3rd party plugins -->
 	<gap:plugin name="com.alexvillaro.plugins.inapppurchase" />
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
+	<gap:plugin name="com.simplec.plugins.localnotification" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
