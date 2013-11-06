@@ -60,6 +60,7 @@ var app = {
       });
     }
 	
+	/*
     // alert dialog dismissed
     alertDismissed: function() {
         // do something
@@ -75,5 +76,6 @@ var app = {
             'Done'                  // buttonName
         );
     }
+	*/
 	
 };
